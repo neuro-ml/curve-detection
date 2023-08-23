@@ -4,6 +4,34 @@ The annotation was prepared for the paper [End-to-end Curves Detection in Volume
 
 We encourage the community to use the annotation to facilitate further advancements in the curves detection field.
 
+# Annotation structure
+## Directory
+```
+annotation
+└─── amos
+│   └─── knots
+│       │   id1.json
+│       │   id2.json
+│       │   ...
+└─── lidc
+│   └─── knots
+│       │   id1.json
+│       │   id2.json
+│       │   ...
+│   └─── masks
+│       │   id1.npy.gz
+│       │   id2.npy.gz
+│       │   ...
+```
+## Knots json
+
+```
+{
+    'id': id
+    'knots': [[x, y, z], ...]
+}
+```
+
 # Usage
 
 `example.py` contains an example of matching the annotation with images from the dataset.
