@@ -34,7 +34,7 @@ annotation
 
 # Usage
 
-`example.py` contains an example of matching the annotation with images from the dataset.
+`example.ipynb` contains an example of matching the annotation with images from the dataset.
 
 # Questions
 
