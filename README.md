@@ -1,6 +1,6 @@
 This repository contains annotated aortic centerlines and masks for 101 randomly selected images from [LIDC/IDRI](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254) and aortic centerlines for 41 randomly selected images from [AMOS](https://amos22.grand-challenge.org). Aortic centerlines were annotated by placing the knots on axial, sagittal, and coronal projections, while aortic masks were annotated on every third axial slice and linearly interpolated for the rest. 
 
-The annotation was prepared for the paper [End-to-end Curves Detection in Volumetric Medical Imaging via Attraction Fields].
+The annotation was prepared for the paper [Robust Curve Detection in Volumetric Medical Imaging via Attraction Field].
 
 We encourage the community to use the annotation to facilitate further advancements in the curves detection field.
 
